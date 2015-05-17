@@ -1,0 +1,84 @@
+.dt-alertify-response {
+	max-height: 200px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	text-align: left;
+}
+
+.dt-dummy-content {
+	background: #fff;
+	-webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,0.1);
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,0.1);
+}
+
+.dt-dummy-content > h3 {
+	font-size: 18px;
+	font-weight: normal;
+	cursor: default;
+	background-color: #F9F9F9;
+	padding: 10px 15px;
+}
+
+.dt-dummy-import-item {
+	overflow: hidden;
+}
+
+.dt-dummy-screenshot,
+.dt-dummy-controls {
+	display: block;
+	float: left;
+}
+
+.dt-dummy-screenshot {
+	width: 372px;
+	margin-right: -372px;
+}
+.dt-dummy-screenshot img {
+	max-width: 100%;
+	height: auto;
+}
+
+.dt-dummy-controls {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%;
+	padding-left: 372px;
+}
+
+.dt-dummy-controls-block {
+	padding-bottom: 1.33em;
+}
+
+.dt-dummy-controls-block label {
+	padding: 0px 10px 10px 0px;
+	display: inline-block;
+}
+
+.dt-dummy-controls-block h4 {
+	margin-top: 0em;
+}
+
+.dt-dummy-controls-block.dt-dummy-info-content {
+	padding: 0px;
+}
+
+.dt-dummy-button-wrap {
+	display: inline-block;
+}
+
+.dt-dummy-button-wrap .spinner {
+	margin-top: 4px;
+}
+
+.dt-dummy-alertify-loading .alertify-buttons{
+	display: none;
+}
+
+.dt-dummy-alertify-loading .dt-dummy-spinner {
+	display: block;
+	height: 32px;
+	background: url(../images/spinner.gif) no-repeat;
+	background-position: center center;
+	opacity: 0.7;
+}

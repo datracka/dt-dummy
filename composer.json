@@ -1,0 +1,13 @@
+{
+  "name": "datracka/dt-dummy",
+  "type": "wordpress-plugin",
+  "package": {
+    "source": {
+      "url": "git@github.com:datracka/dt-dummy.git",
+      "type": "git"
+    },
+    "require": {
+      "composer/installers": "~1.0.6"
+    }
+  }
+}
